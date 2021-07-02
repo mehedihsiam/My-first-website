@@ -1,0 +1,264 @@
+body{
+    width: auto;
+}
+
+/*-- Nav Bar start--*/
+
+#nav .common{
+    width: 100%;
+    height: 60px;
+}
+#nav .btn-family{
+    color: black;
+    height: 60px;
+    width: auto;
+    float: right;
+    margin: 0px 120px 0px 10px;
+}
+#nav .btn{
+    height: 100%;
+    width: 70px;
+    margin: auto 19px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+    color: black;
+
+}
+/*-- Nav Bar End--*/
+
+
+/*--banner start--*/
+
+#banner .common{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#banner .left-side{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#banner .text{
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-family: Poppins;
+    line-height: 38px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#banner .hello{
+    color: #363958;
+    
+}
+
+
+#banner .name{
+    color: #FF8367;
+    
+}
+
+#banner .des{
+    font-size: 11pt;
+    font-weight: 500;
+    line-height: 5px;
+    margin-top: 30px;
+}
+
+#banner .btn{
+    background: linear-gradient(#F56E6E 70%, #FC9887);
+    width: 130px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 30px auto auto 70px;
+    transition: 0.5s cubic-bezier(0.46, 0.87, 0.7, 0.79);
+}
+
+#banner .btn:hover{
+    background: linear-gradient(#363958 60%, #65688a);
+    padding: 18px;
+    margin: 28px auto auto 68px;
+}
+
+#banner .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--banner end--*/
+
+
+/*--About section start--*/
+#about-me .common{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#about-me .left-side{
+    float: left;
+    width: 50%;
+    
+}
+
+#about-me .left-side img{
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+}
+
+
+#about-me .right-side{
+    float: left;
+    width: 50%;
+    
+}
+
+#about-me .heading{
+    text-align: left;
+    color: #363958;
+    font-size: 18pt;
+    font-weight: bolder;
+    font-family: Poppins;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#about-me .content{
+    font-family: Poppins;
+    text-align: left;
+    margin-right: 200px;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+#about-me .btn{
+    background: linear-gradient(#F56E6E 70%, #FC9887);
+    width: 130px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 50px auto auto 0px;
+    transition: 0.4s cubic-bezier(0.46, 0.87, 0.7, 0.79);
+}
+
+#about-me .btn:hover{
+    background: linear-gradient(#363958 60%, #65688a);
+    padding: 18px;
+    margin: 47px auto auto -3px;
+}
+
+#about-me .btn a{
+    color: white;
+    text-decoration: none;
+}
+/*--About section end--*/
+
+
+
+/*-- working section start--*/
+
+#works .common{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#works .heading{
+    text-align: center;
+    color: #363958;
+    font-family: poppins;
+    font-size: 15pt;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#works .dfr-clr{
+    color: #F46060;
+}
+
+
+#works .projects{
+    width: 90%;
+    height: 400;
+    margin-left: 135px;
+    margin-top: 120px;
+}
+#works .pr-1{
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgb(126, 122, 122);
+    text-align: justify;
+
+}
+#works .pr-1 p{
+    margin: 25px;
+}
+
+#works .pr-1 img{
+    width: 90%;
+    height: auto;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+
+
+#works .pr-2{
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 15px;  
+    box-shadow: rgb(126, 122, 122);
+    text-align: justify;
+
+}
+#works .pr-2 p{
+    margin: 25px;
+}
+
+#works .pr-2 img{
+    width: 90%;
+    height: auto;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+
+
+#works .pr-3{
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 15px;   
+    box-shadow: rgb(126, 122, 122);
+    text-align: justify;
+
+}
+#works .pr-3 p{
+    margin: 25px;
+}
+
+#works .pr-3 img{
+    width: 90%;
+    height: auto;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+
+
+
+/*-- working section end--*/
